@@ -24,8 +24,6 @@ jobs:
       - name: Install npm packages and build
         run: |
           cd src
-          git fetch --prune --unshallow --tags
-          echo "::set-output name=APP_VERSION::$(git tag --sort=taggerdate | tail -1)"
           npm ci
           npm run build
 
@@ -36,12 +34,12 @@ jobs:
 
       - name: Copy built files
         run: |
-          cp -R src/docs/. .
+          cp -R src/dist/. .
           rm -rf src
 
       - name: Commit the changes
         run: |
           git status
           git add .
-          git commit -m "BUILDER: Application build ${{steps.global_env.outputs.APP_VERSION}}"
+          git commit -m "BUILDER: Application build ${{ github.event.client_payload.version }}"
           git push origin master
