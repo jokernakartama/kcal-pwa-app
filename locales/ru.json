@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "Ваше имя",
+    "weight": "Вес, кг",
+    "height": "Рост, см",
+    "birthday": "Дата рождения",
+    "sex": "Пол",
+    "male": "Мужской",
+    "female": "Женский",
+    "activity": "Активность",
+    "activity_min": "Минимальная",
+    "activity_low": "Небольшая",
+    "activity_avg": "Средняя",
+    "activity_intense": "Выше среднего",
+    "activity_high": "Повышенная",
+    "activity_veryhigh": "Высокая",
+    "activity_max": "Очень высокая",
+    "goal": "Цель",
+    "lose": "Снижение веса",
+    "maintain": "Поддерживать норму",
+    "gain": "Набрать вес"
+  },
+  "nutrients": {
+    "mass": "Масса",
+    "proteins": " Белки",
+    "fats": "Жиры",
+    "carbohydrates": "Углеводы",
+    "kcalories": "Энерг. ценность",
+    "E": "К",
+    "P": "Б",
+    "F": "Ж",
+    "C": "У"
+  },
+  "unit": {
+    "gram": "г",
+    "kcal": "ккал"
+  },
+  "button": {
+    "continue": "Продолжить",
+    "remove": "Удалить"
+  }
+}
