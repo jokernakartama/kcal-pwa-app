@@ -13,8 +13,8 @@ jobs:
       - name: Remove old files
         run: |
           rm -rf assets/* locales/*
-          rm workbox-*.js
-          rm manifest.*.json
+          rm -f workbox-*.js
+          rm -f manifest.*.json
 
       - name: Checkout the repository of source code
         uses: actions/checkout@v3
