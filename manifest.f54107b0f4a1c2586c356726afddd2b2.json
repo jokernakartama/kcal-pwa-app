@@ -66,6 +66,6 @@
   "display": "standalone",
   "start_url": "index.html?standalone=true",
   "description": "An app that helps you to track your daily nutrients consumption",
-  "background_color": "#F9F9F9",
-  "theme_color": "#F9F9F9"
+  "background_color": "#FEFEFE",
+  "theme_color": "#FEFEFE"
 }
